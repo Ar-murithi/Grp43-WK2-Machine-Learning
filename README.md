@@ -1,88 +1,114 @@
 # AI for Sustainable Development - Week 2 Assignment
 
-## 🌍 Theme
-**Machine Learning Meets the UN Sustainable Development Goals (SDGs)**
+## 🌍 Project Overview: AI-driven Climate Change Prediction & Mitigation
 
 ---
 
-## 📌 Objective
-Design a **machine learning model** or **AI-driven solution** that addresses one of the **UN Sustainable Development Goals (SDGs)**. The solution should integrate concepts from Week 2, such as:
+# Climate AI Project 🌍🔬
 
-- Supervised/Unsupervised Learning  
-- Neural Networks  
-- Natural Language Processing (NLP)  
-- Reinforcement Learning
+## Overview
+This project employs supervised learning techniques to tackle SDG 13: Climate Change. By analyzing historical climate data, the system aims to:
+- Predict extreme weather events
+- Forecast carbon emissions
+- Optimize energy consumption
+- Monitor deforestation patterns
 
-The project should demonstrate how AI can contribute to solving global challenges like **poverty**, **climate change**, or **inequality**.
+## Key Features
+- Extreme Weather Prediction 
+- CO₂ Emission Forecasting  
+- Energy Efficiency Optimization
+- Land Use & Deforestation Monitoring 
 
----
+## Tech Stack
+- Programming Language:Python  
+- Libraries/Frameworks: TensorFlow, Scikit-Learn, Pandas, NumPy, Matplotlib  
+- Tools: Jupyter Notebooks, Google Colab (optional)  
 
-## 📊 Project Title
-*Your AI Solution Title Here*  
-*A brief one-line description of the solution*
 
----
+## Installation & Usage
 
-## 🧠 Problem Statement
-Clearly define the real-world issue your AI model addresses and identify the relevant SDG(s).  
-For example:
-> *"Climate change is leading to irregular crop yields across Sub-Saharan Africa. Our AI solution predicts optimal planting times to reduce food insecurity (SDG 2: Zero Hunger)."*
-
----
-
-## 🔧 Solution Overview
-Provide a summary of your solution:
-- What does your model do?
-- What kind of ML approach is used?
-- How does it support the selected SDG?
-
----
-
-## 📚 Concepts Used
-- [ ] Supervised Learning
-- [ ] Unsupervised Learning
-- [ ] Neural Networks
-- [ ] NLP
-- [ ] Reinforcement Learning
-
-> *(Check all that apply)*
-
----
-
-## 🧪 Tools and Libraries
-List the tools used:
-- Google Colab
-- Python
-- Libraries (e.g., scikit-learn, pandas, TensorFlow, Keras, etc.)
-
----
-
-## 📝 Dataset
-Mention the dataset(s) used:
-- Source of data
-- Size and format
-- Preprocessing steps (if any)
-
----
-
-## 📈 Model Description
-Brief description of:
-- Data preprocessing
-- Model architecture/algorithm
-- Training method
-- Evaluation metrics
-
----
-
-## ✅ Results
-- Performance metrics (accuracy, F1-score, etc.)
-- Visualizations (graphs, confusion matrix, etc.)
-- Key findings
-
----
-
-## 🚀 How to Run
+### Clone the repository
 ```bash
-# Step 1: Open Google Colab
-# Step 2: Upload the notebook
-# Step 3: Run all cells in order
+git clone https://github.com/Ar-murithi/Grp43-WK2-Machine-Learning.git
+```
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the training script
+```bash
+python scripts/train_model.py
+```
+## Add screenshots or demo images here
+
+
+## Contributors
+- Linah 
+- Stanley
+- David 
+- Micheal
+- Eunice
+
+
+## Add detailed code for technical documentation
+
+# SDG 13 Article: Leveraging AI to Combat Climate Change – A Data-Driven Approach
+
+### Introduction
+Climate change is a major global challenge impacting biodiversity, weather patterns, and human livelihoods. AI, especially supervised learning, provides powerful tools for developing predictive models to mitigate these risks.
+
+### Problem Statement 
+SDG 13 calls for urgent action against climate change. Uncontrolled CO₂ emissions, extreme weather events, deforestation, and inefficient energy use accelerate global warming.
+
+### AI Solution Using Supervised Learning 
+1. Extreme Weather Forecasting: AI models trained on climate data can predict hurricanes, floods, wildfires.  
+2. Carbon Emission Analysis: Identifies industries with high emission levels.  
+3. Energy Optimization: AI-driven recommendations promote sustainable energy use.  
+4. Deforestation Monitoring: Deep learning applied to satellite imagery detects illegal clearing.
+
+### Impact of the Project  
+By integrating AI solutions, policymakers and organizations can make informed decisions to prevent disasters, reduce resource waste, and support sustainable practices.
+
+# Pitch Deck Outline
+
+- Slide 1: AI for Climate Action: A Supervised Learning Approach
+- Slide 2: Problem: Climate change challenges (SDG 13)  
+- Slide 3: Solution: AI-powered analytics  
+- Slide 4: Implementation: Tech stack, algorithms used  
+- Slide 5: Expected Impact: Emission reduction, improved forecasts  
+- Slide 6: Call to Action: Stakeholder benefits
+
+# Tools and Libraries
+List main tools:
+- Python  
+- scikit-learn, TensorFlow, Keras  
+- Pandas, NumPy  
+- Visualization tools (Matplotlib, Seaborn)  
+
+# Dataset
+Describe:
+- Data sources  
+- Size and format  
+- Preprocessing steps (cleaning, normalization) 
+
+# Model Description
+Include:
+- Data preprocessing steps  
+- Model architecture or algorithm  
+- Training process  
+- Evaluation metrics (accuracy, F1-score, etc.)
+
+# Results
+Show:
+- Performance metrics  
+- Visualizations (confusion matrix, ROC curves)  
+- Key insights  
+
+# How to Run
+```bash
+# Open project in IDE or Google Colab
+# Upload datasets/notebooks if needed
+# Run cells in sequence to train and evaluate
+```
