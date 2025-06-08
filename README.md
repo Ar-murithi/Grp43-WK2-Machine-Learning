@@ -9,8 +9,7 @@
 ## Overview
 This project employs supervised learning techniques to tackle SDG 13: Climate Change. By analyzing historical climate data, the system aims to:
 - Predict extreme weather events
-- Forecast carbon emissions
-- Optimize energy consumption
+- Forecast carbon emissions and Optimize energy consumption
 - Monitor deforestation patterns
 
 ## Key Features
