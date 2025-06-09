@@ -49,9 +49,11 @@ Launch Juypter in your browser:
     jupyter notebook notebooks/week2_AI.ipynb
 
 ##  screenshots or demo images
+ predictions
  ![demo images](prediction.png)
 
-
+ classification
+  ![demo images](temp_change.png)
 
 
 ## Contributors
