@@ -48,7 +48,8 @@ Launch Juypter in your browser:
 
     jupyter notebook notebooks/week2_AI.ipynb
 
-## Add screenshots or demo images here
+##  screenshots or demo images
+prediction.png
 
 
 ## Contributors
