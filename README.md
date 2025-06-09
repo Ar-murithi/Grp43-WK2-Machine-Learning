@@ -29,6 +29,7 @@ This project employs supervised learning techniques to tackle SDG 13: Climate Ch
 ### Clone the repository
 ```bash
 git clone https://github.com/Ar-murithi/Grp43-WK2-Machine-Learning.git
+cd Grp43-WK2-Machine-Learning
 ```
 
 ### Install dependencies
@@ -36,10 +37,17 @@ git clone https://github.com/Ar-murithi/Grp43-WK2-Machine-Learning.git
 pip install -r requirements.txt
 ```
 
-### Run the training script
+### Run the Juypter Notebook
+To open and run the notebook, first ensure Jupyter is installed:
+
 ```bash
-python scripts/train_model.py
+pip install notebook
 ```
+
+Launch Juypter in your browser:
+
+    jupyter notebook notebooks/week2_AI.ipynb
+
 ## Add screenshots or demo images here
 
 
@@ -47,7 +55,7 @@ python scripts/train_model.py
 - Linah 
 - Stanley
 - David 
-- Micheal
+- Michael
 - Eunice
 
 
